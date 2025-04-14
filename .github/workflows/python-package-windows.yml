@@ -33,3 +33,10 @@ jobs:
       with:
         name: bulk-email-sender
         path: dist/scr.exe
+
+    - name: Upload Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: dist/scr.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
