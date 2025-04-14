@@ -2,6 +2,7 @@
 
 A simple desktop GUI app for sending bulk emails using an Excel file of recipients. Supports both **HTML** and **plain text** emails, automatic delays, and progress tracking.
 
+![GUI](https://raw.githubusercontent.com/ishaanx/bulk-email-sender/refs/heads/main/GUI.png)
 ---
 
 ## 🚀 Features
