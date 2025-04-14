@@ -21,7 +21,7 @@ jobs:
       - name: Run PyInstaller
         run: |
           python -m PyInstaller qwiklab_badge_checker.spec
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: Windows_qwiklabs
           path: dist/qwiklab_badge_checker.exe
