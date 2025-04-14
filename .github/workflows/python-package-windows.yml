@@ -2,10 +2,8 @@ name: Build EXE for Windows
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+    tags:
+      - 'v*'  # Triggers when you push a tag like v1.0, v1.0.1 etc.
 jobs:
   build-windows:
     runs-on: windows-latest
